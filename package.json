@@ -1,0 +1,7 @@
+{
+  "name": "my-awesome-package",
+  "version": "1.0.0",
+  "dependencies": {
+    "github-scraper": "^6.7.0"
+  }
+}
