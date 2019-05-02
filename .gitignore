@@ -108,3 +108,4 @@ scrapes/
 node_modules/
 creds/
 tmp/
+resources/

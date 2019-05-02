@@ -9,7 +9,7 @@ gs(url, function(err, data) {
 
 	let jsonData = JSON.stringify(data, null, 2);  
 	var filename = url.split('/')[0] + '-' + url.split('/')[1];
-	fs.writeFile('/scrapes/' + filename + '.json', jsonData, (err) => {  
+	fs.writeFile('scrapes/' + filename + '.json', jsonData, (err) => {  
 	    if (err) process.exit(1);
 	    console.log('Data written to file');
 	});
